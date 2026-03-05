@@ -10,7 +10,7 @@ export class ConfigService {
 
   async load(): Promise<void> {
     this.config = await firstValueFrom(
-      this.http.get<AppConfig>('config/config.json')
+      this.http.get<AppConfig>('configs/config.json')
     );
   }
 
