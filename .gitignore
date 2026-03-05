@@ -42,4 +42,4 @@ testem.log
 Thumbs.db
 
 
-public/assets/config/config.json
+public/configs/
